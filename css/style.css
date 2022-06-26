@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: blue;
+    padding: 20px;
+    position: relative;
+    width: 25%;
+    color: white;
+}
+.pw{
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    color: red;
+    font-size: 25px;
+}
+.copy{
+    position: absolute;
+    top: 22px;
+    right: 6px;
+    
+}
+.pw-length, .pw-number, .pw-symbol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+#length{
+    width: 25%;
+}
+.gen{
+    margin: auto;
+    width: 100%;
+    padding: 15px 15px;
+    background-color: yellow;
+    font-size: 20px;
+}
